@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="login.css">
+  <script language="javascript">    
+  function validate()
+  {
+    var username=document.f1.username.value;
+    var password=document.f1.password.value;
+  if(username=="admin"&& password=="root")
+  {
+
+      alert("Login Successfully...");
+      alert("ram ram...")
+      alert(username);
+      return false;
+  }
+  else
+  {
+      alert("Login Failed incorrect username & password");
+      alert("try again...")
+      return false;
+  }
+  }    
+    </script>
+    <h1><title>Login in</title></h1>
+</head>
+<body>
+    <form name="f1" action="" method="POST" >
+      <img src="buser.png">
+    <h1>Log in<br><br>
+      <b>Username:<input type="text" name="username" placeholder="Username"></b><br>
+      <b>Password:<input type="password" name="password" placeholder="password"></b><br>
+      <input type="submit" class="sub" name="submit" value="Log In" onClick="validate()">
+   </h1>
+</body>
+</form>
+</html>

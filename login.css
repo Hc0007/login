@@ -1,0 +1,45 @@
+form{
+  border-radius: 10vh;
+    margin-top: 2vh;
+    margin-left: 70vh;
+    margin-right: 50vh;
+    margin-bottom:20vh;
+    padding-left: 20vh;
+    padding-top:2vh;
+padding-right: 20vh;
+      color:white;
+    background-image: url("OIP.jpg");
+  }
+  form:hover {
+    border-radius: 10vh;
+    margin-top: 2vh;
+margin-left: 70vh;
+margin-right: 50vh;
+margin-bottom: 20vh;
+padding-top:2vh;
+padding-right: 20vh;
+padding-left: 20vh;
+      color:black;
+        background-image: url("OIP.jpg");
+    background-image: url("tricolor.jpg");
+    background-repeat: no-repeat;
+  }
+.sub:hover{
+        margin:4px;
+        padding:10px;
+        background:#0066ff;
+        color:white;
+        border-radius:10px;
+        font-size: medium;
+        font-weight: bolder;
+    
+}
+div{
+    background-image: url("OIP.jpg");
+}
+img{
+	padding-top:80px;
+	height:160px;
+	width:100px;
+	border-radius:20px;
+}	
